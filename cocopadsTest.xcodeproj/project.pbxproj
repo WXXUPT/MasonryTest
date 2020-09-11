@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F613DDA65A3AE98DD995C94D /* libPods-cocopadsTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E064ED2F1987B14B9EFD82 /* libPods-cocopadsTest.a */; };
+		FB4DD649250A8CDA00F82A61 /* imageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4DD648250A8CDA00F82A61 /* imageTableViewCell.m */; };
+		FBEE119425078CE000791904 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE119325078CE000791904 /* AppDelegate.m */; };
+		FBEE119725078CE000791904 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE119625078CE000791904 /* SceneDelegate.m */; };
+		FBEE119A25078CE000791904 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE119925078CE000791904 /* ViewController.m */; };
+		FBEE119D25078CE000791904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEE119B25078CE000791904 /* Main.storyboard */; };
+		FBEE119F25078CE500791904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEE119E25078CE500791904 /* Assets.xcassets */; };
+		FBEE11A225078CE500791904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEE11A025078CE500791904 /* LaunchScreen.storyboard */; };
+		FBEE11A525078CE500791904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE11A425078CE500791904 /* main.m */; };
+		FBEE11AF25078CE600791904 /* cocopadsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE11AE25078CE600791904 /* cocopadsTestTests.m */; };
+		FBEE11BA25078CE600791904 /* cocopadsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE11B925078CE600791904 /* cocopadsTestUITests.m */; };
+		FBEE12772508E24000791904 /* hh2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEE126F2508E23C00791904 /* hh2.jpg */; };
+		FBEE12782508E24000791904 /* hh1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEE12702508E23C00791904 /* hh1.jpg */; };
+		FBEE12792508E24000791904 /* hh4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEE12712508E23D00791904 /* hh4.jpg */; };
+		FBEE127A2508E24000791904 /* hh3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEE12722508E23D00791904 /* hh3.jpg */; };
+		FBEE127B2508E24000791904 /* hh7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEE12732508E23E00791904 /* hh7.jpg */; };
+		FBEE127C2508E24000791904 /* hh5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEE12742508E23E00791904 /* hh5.jpg */; };
+		FBEE127D2508E24000791904 /* hh6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEE12752508E23F00791904 /* hh6.jpg */; };
+		FBEE127E2508E24000791904 /* hh8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEE12762508E24000791904 /* hh8.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBEE11AB25078CE600791904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBEE118725078CE000791904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEE118E25078CE000791904;
+			remoteInfo = cocopadsTest;
+		};
+		FBEE11B625078CE600791904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBEE118725078CE000791904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEE118E25078CE000791904;
+			remoteInfo = cocopadsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A8F4EDED6311817339BE3A0 /* Pods-cocopadsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocopadsTest.debug.xcconfig"; path = "Target Support Files/Pods-cocopadsTest/Pods-cocopadsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		12682AB02EA2CC8349358C2A /* Pods-cocopadsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocopadsTest.release.xcconfig"; path = "Target Support Files/Pods-cocopadsTest/Pods-cocopadsTest.release.xcconfig"; sourceTree = "<group>"; };
+		E2E064ED2F1987B14B9EFD82 /* libPods-cocopadsTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cocopadsTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4DD647250A8CDA00F82A61 /* imageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imageTableViewCell.h; sourceTree = "<group>"; };
+		FB4DD648250A8CDA00F82A61 /* imageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imageTableViewCell.m; sourceTree = "<group>"; };
+		FBEE118F25078CE000791904 /* cocopadsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocopadsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEE119225078CE000791904 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBEE119325078CE000791904 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBEE119525078CE000791904 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FBEE119625078CE000791904 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FBEE119825078CE000791904 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBEE119925078CE000791904 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBEE119C25078CE000791904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBEE119E25078CE500791904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBEE11A125078CE500791904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBEE11A325078CE500791904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEE11A425078CE500791904 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBEE11AA25078CE600791904 /* cocopadsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocopadsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEE11AE25078CE600791904 /* cocopadsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocopadsTestTests.m; sourceTree = "<group>"; };
+		FBEE11B025078CE600791904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEE11B525078CE600791904 /* cocopadsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocopadsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEE11B925078CE600791904 /* cocopadsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocopadsTestUITests.m; sourceTree = "<group>"; };
+		FBEE11BB25078CE600791904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEE126F2508E23C00791904 /* hh2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hh2.jpg; sourceTree = "<group>"; };
+		FBEE12702508E23C00791904 /* hh1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hh1.jpg; sourceTree = "<group>"; };
+		FBEE12712508E23D00791904 /* hh4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hh4.jpg; sourceTree = "<group>"; };
+		FBEE12722508E23D00791904 /* hh3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hh3.jpg; sourceTree = "<group>"; };
+		FBEE12732508E23E00791904 /* hh7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hh7.jpg; sourceTree = "<group>"; };
+		FBEE12742508E23E00791904 /* hh5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hh5.jpg; sourceTree = "<group>"; };
+		FBEE12752508E23F00791904 /* hh6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hh6.jpg; sourceTree = "<group>"; };
+		FBEE12762508E24000791904 /* hh8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hh8.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBEE118C25078CE000791904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F613DDA65A3AE98DD995C94D /* libPods-cocopadsTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEE11A725078CE600791904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEE11B225078CE600791904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		723861540FB40C38D1E6D075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2E064ED2F1987B14B9EFD82 /* libPods-cocopadsTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7F495FC9C464230F0033E6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F4EDED6311817339BE3A0 /* Pods-cocopadsTest.debug.xcconfig */,
+				12682AB02EA2CC8349358C2A /* Pods-cocopadsTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FBEE118625078CE000791904 = {
+			isa = PBXGroup;
+			children = (
+				FBEE12702508E23C00791904 /* hh1.jpg */,
+				FBEE126F2508E23C00791904 /* hh2.jpg */,
+				FBEE12722508E23D00791904 /* hh3.jpg */,
+				FBEE12712508E23D00791904 /* hh4.jpg */,
+				FBEE12742508E23E00791904 /* hh5.jpg */,
+				FBEE12752508E23F00791904 /* hh6.jpg */,
+				FBEE12732508E23E00791904 /* hh7.jpg */,
+				FBEE12762508E24000791904 /* hh8.jpg */,
+				FBEE119125078CE000791904 /* cocopadsTest */,
+				FBEE11AD25078CE600791904 /* cocopadsTestTests */,
+				FBEE11B825078CE600791904 /* cocopadsTestUITests */,
+				FBEE119025078CE000791904 /* Products */,
+				E7F495FC9C464230F0033E6A /* Pods */,
+				723861540FB40C38D1E6D075 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBEE119025078CE000791904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE118F25078CE000791904 /* cocopadsTest.app */,
+				FBEE11AA25078CE600791904 /* cocopadsTestTests.xctest */,
+				FBEE11B525078CE600791904 /* cocopadsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBEE119125078CE000791904 /* cocopadsTest */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE119225078CE000791904 /* AppDelegate.h */,
+				FBEE119325078CE000791904 /* AppDelegate.m */,
+				FBEE119525078CE000791904 /* SceneDelegate.h */,
+				FBEE119625078CE000791904 /* SceneDelegate.m */,
+				FBEE119825078CE000791904 /* ViewController.h */,
+				FBEE119925078CE000791904 /* ViewController.m */,
+				FB4DD647250A8CDA00F82A61 /* imageTableViewCell.h */,
+				FB4DD648250A8CDA00F82A61 /* imageTableViewCell.m */,
+				FBEE119B25078CE000791904 /* Main.storyboard */,
+				FBEE119E25078CE500791904 /* Assets.xcassets */,
+				FBEE11A025078CE500791904 /* LaunchScreen.storyboard */,
+				FBEE11A325078CE500791904 /* Info.plist */,
+				FBEE11A425078CE500791904 /* main.m */,
+			);
+			path = cocopadsTest;
+			sourceTree = "<group>";
+		};
+		FBEE11AD25078CE600791904 /* cocopadsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE11AE25078CE600791904 /* cocopadsTestTests.m */,
+				FBEE11B025078CE600791904 /* Info.plist */,
+			);
+			path = cocopadsTestTests;
+			sourceTree = "<group>";
+		};
+		FBEE11B825078CE600791904 /* cocopadsTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE11B925078CE600791904 /* cocopadsTestUITests.m */,
+				FBEE11BB25078CE600791904 /* Info.plist */,
+			);
+			path = cocopadsTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBEE118E25078CE000791904 /* cocopadsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEE11BE25078CE600791904 /* Build configuration list for PBXNativeTarget "cocopadsTest" */;
+			buildPhases = (
+				A58006184CE17D28C2CACBBF /* [CP] Check Pods Manifest.lock */,
+				FBEE118B25078CE000791904 /* Sources */,
+				FBEE118C25078CE000791904 /* Frameworks */,
+				FBEE118D25078CE000791904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cocopadsTest;
+			productName = cocopadsTest;
+			productReference = FBEE118F25078CE000791904 /* cocopadsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBEE11A925078CE600791904 /* cocopadsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEE11C125078CE600791904 /* Build configuration list for PBXNativeTarget "cocopadsTestTests" */;
+			buildPhases = (
+				FBEE11A625078CE600791904 /* Sources */,
+				FBEE11A725078CE600791904 /* Frameworks */,
+				FBEE11A825078CE600791904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBEE11AC25078CE600791904 /* PBXTargetDependency */,
+			);
+			name = cocopadsTestTests;
+			productName = cocopadsTestTests;
+			productReference = FBEE11AA25078CE600791904 /* cocopadsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBEE11B425078CE600791904 /* cocopadsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEE11C425078CE600791904 /* Build configuration list for PBXNativeTarget "cocopadsTestUITests" */;
+			buildPhases = (
+				FBEE11B125078CE600791904 /* Sources */,
+				FBEE11B225078CE600791904 /* Frameworks */,
+				FBEE11B325078CE600791904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBEE11B725078CE600791904 /* PBXTargetDependency */,
+			);
+			name = cocopadsTestUITests;
+			productName = cocopadsTestUITests;
+			productReference = FBEE11B525078CE600791904 /* cocopadsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBEE118725078CE000791904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "王旭";
+				TargetAttributes = {
+					FBEE118E25078CE000791904 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					FBEE11A925078CE600791904 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = FBEE118E25078CE000791904;
+					};
+					FBEE11B425078CE600791904 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = FBEE118E25078CE000791904;
+					};
+				};
+			};
+			buildConfigurationList = FBEE118A25078CE000791904 /* Build configuration list for PBXProject "cocopadsTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBEE118625078CE000791904;
+			productRefGroup = FBEE119025078CE000791904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBEE118E25078CE000791904 /* cocopadsTest */,
+				FBEE11A925078CE600791904 /* cocopadsTestTests */,
+				FBEE11B425078CE600791904 /* cocopadsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBEE118D25078CE000791904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEE12792508E24000791904 /* hh4.jpg in Resources */,
+				FBEE127A2508E24000791904 /* hh3.jpg in Resources */,
+				FBEE12772508E24000791904 /* hh2.jpg in Resources */,
+				FBEE11A225078CE500791904 /* LaunchScreen.storyboard in Resources */,
+				FBEE119F25078CE500791904 /* Assets.xcassets in Resources */,
+				FBEE127B2508E24000791904 /* hh7.jpg in Resources */,
+				FBEE127C2508E24000791904 /* hh5.jpg in Resources */,
+				FBEE12782508E24000791904 /* hh1.jpg in Resources */,
+				FBEE127D2508E24000791904 /* hh6.jpg in Resources */,
+				FBEE127E2508E24000791904 /* hh8.jpg in Resources */,
+				FBEE119D25078CE000791904 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEE11A825078CE600791904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEE11B325078CE600791904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A58006184CE17D28C2CACBBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cocopadsTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBEE118B25078CE000791904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEE119A25078CE000791904 /* ViewController.m in Sources */,
+				FBEE119425078CE000791904 /* AppDelegate.m in Sources */,
+				FB4DD649250A8CDA00F82A61 /* imageTableViewCell.m in Sources */,
+				FBEE11A525078CE500791904 /* main.m in Sources */,
+				FBEE119725078CE000791904 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEE11A625078CE600791904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEE11AF25078CE600791904 /* cocopadsTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEE11B125078CE600791904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEE11BA25078CE600791904 /* cocopadsTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBEE11AC25078CE600791904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEE118E25078CE000791904 /* cocopadsTest */;
+			targetProxy = FBEE11AB25078CE600791904 /* PBXContainerItemProxy */;
+		};
+		FBEE11B725078CE600791904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEE118E25078CE000791904 /* cocopadsTest */;
+			targetProxy = FBEE11B625078CE600791904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBEE119B25078CE000791904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEE119C25078CE000791904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBEE11A025078CE500791904 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEE11A125078CE500791904 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBEE11BC25078CE600791904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBEE11BD25078CE600791904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBEE11BF25078CE600791904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8F4EDED6311817339BE3A0 /* Pods-cocopadsTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RUGX655P7;
+				INFOPLIST_FILE = cocopadsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.cocopadsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBEE11C025078CE600791904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12682AB02EA2CC8349358C2A /* Pods-cocopadsTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RUGX655P7;
+				INFOPLIST_FILE = cocopadsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.cocopadsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBEE11C225078CE600791904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RUGX655P7;
+				INFOPLIST_FILE = cocopadsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.cocopadsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cocopadsTest.app/cocopadsTest";
+			};
+			name = Debug;
+		};
+		FBEE11C325078CE600791904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RUGX655P7;
+				INFOPLIST_FILE = cocopadsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.cocopadsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cocopadsTest.app/cocopadsTest";
+			};
+			name = Release;
+		};
+		FBEE11C525078CE600791904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RUGX655P7;
+				INFOPLIST_FILE = cocopadsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.cocopadsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cocopadsTest;
+			};
+			name = Debug;
+		};
+		FBEE11C625078CE600791904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RUGX655P7;
+				INFOPLIST_FILE = cocopadsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.cocopadsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cocopadsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBEE118A25078CE000791904 /* Build configuration list for PBXProject "cocopadsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEE11BC25078CE600791904 /* Debug */,
+				FBEE11BD25078CE600791904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEE11BE25078CE600791904 /* Build configuration list for PBXNativeTarget "cocopadsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEE11BF25078CE600791904 /* Debug */,
+				FBEE11C025078CE600791904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEE11C125078CE600791904 /* Build configuration list for PBXNativeTarget "cocopadsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEE11C225078CE600791904 /* Debug */,
+				FBEE11C325078CE600791904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEE11C425078CE600791904 /* Build configuration list for PBXNativeTarget "cocopadsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEE11C525078CE600791904 /* Debug */,
+				FBEE11C625078CE600791904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBEE118725078CE000791904 /* Project object */;
+}
